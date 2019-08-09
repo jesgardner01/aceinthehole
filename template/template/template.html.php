@@ -6,15 +6,21 @@ Programmer: Jessica Gardner
 -->
 <html>
 <head>
+
     <meta charset="UTF-8">
     <title>Ace in the Hole</title>
   <!--font-->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--less-->
     <link rel="stylesheet/less" type="text/css" href="../css/style.less"/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+
+
 </head>
+
 <body>
 
-<h1 class="title">Ace in the Hole</h1>
+<h1 class="title"> ACE IN THE HOLE MULTISPORT EVENTS</h1>
     <header class="header">
 
         <?php include '../includes/nav.inc.html.php'; ?>
@@ -29,18 +35,18 @@ Programmer: Jessica Gardner
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="/images/runningintowater.jpg" alt="Runner" id="runner1">
+    <img src="../images/runningintowater.jpg" alt="Runner" id="runner1">
     <div class="text">Running</div>
   </div>
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="/images/swimming1.jpg" alt="Swimming" id="swimming2">
+    <img src="../images/swimming1.jpg" alt="Swimming" id="swimming2">
     <div class="text">Swimming</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="/images/triatholan.jpg" alt="triatholan" id="triatholan3">
+    <img src="../images/triatholan.jpg" alt="triatholan" id="triatholan3">
     <div class="text">Triatholan</div>
   </div>
 
@@ -62,9 +68,9 @@ Programmer: Jessica Gardner
     </div>
       
     <section id="about">
-    <h2 class="about">ABOUT ACE IN THE HOLE MULTISPORT EVENTS</h2>
+    <h2 class="about">h2</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
-        <h2 class="event">ABOUT THE EVENT</h2>
+        <h2 class="event">h2</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
 <br>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -78,8 +84,6 @@ Programmer: Jessica Gardner
 
     
     </main>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
-<script src="script/script.js"></script>
-
+<script type="text/javascript" src="../script/script.js"></script>
 </body>
 </html>
